@@ -3,12 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <title>Quote Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <script type="module" src="./index.js" defer></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div id="loading" class="loading" onClick="hideSpinner()">
+      Loading&#8230;
+    </div>
+    <div class="main-content is-hidden">
+      <div class="main-text">
+        <blockquote class="quote">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae earum
+          libero quaerat, vitae veritatis necessitatibus nihil! Cumque quos
+          ducimus fugit excepturi veniam qui eveniet odio possimus, architecto
+          dolor aut quae.
+        </blockquote>
+        <p class="author">Lorem, ipsum dolor.</p>
+      </div>
+      <button class="btn btn--next">Next</button>
+    </div>
   </body>
 </html>
