@@ -1,5 +1,5 @@
-import { fetchQuotes } from './quote-service';
-import UI from './ui';
+import { fetchQuotes } from './quote-service.js';
+import UI from './ui.js';
 
 const ui = new UI();
 

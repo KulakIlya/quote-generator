@@ -1,3 +1,3 @@
-import { getQuotes } from './js/helpers';
+import { getQuotes } from './js/helpers.js';
 
 getQuotes();

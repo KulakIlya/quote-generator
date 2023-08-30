@@ -1,6 +1,4 @@
-// import { getQuotes } from './helpers';
-
-import { getQuotes } from './helpers';
+import { getQuotes } from './helpers.js';
 
 // const mainContentRef = document.querySelector('.main-content');
 // const quoteRef = document.querySelector('.quote');
