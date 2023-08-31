@@ -2,9 +2,8 @@
   "name": "quote-generator",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/KulakIlya/quote-generator.git",
+  "homepage": "https://KulakIlya.github.io/quote-generator/",
   "scripts": {
-    "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /quote-generator/"
   },
   "repository": {

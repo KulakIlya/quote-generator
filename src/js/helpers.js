@@ -81,7 +81,6 @@ function getRandomElem(arr) {
 export function getQuotes() {
   ui.showSpinner();
   fetchQuotes(getRandomElem(values)).then(data => {
-    console.log(data);
     ui.renderQuote(getRandomElem(data));
     ui.hideSpinner();
   });
